@@ -58,20 +58,9 @@
     gap: 7rem;
 }
 
-.hero__logos--moving {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 7rem;
-}
-
 .hero__logo {
     height: 5rem;
     width: auto;
     object-position: center;
     object-fit: contain;
-}
-
-.hero__logos--moving .hero__logo {
-    animation: logo-movement 3s infinite linear running;
 }
