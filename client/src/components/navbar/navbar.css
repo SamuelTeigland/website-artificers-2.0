@@ -1,0 +1,193 @@
+.navbar__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+    padding: .5rem;
+    border-bottom: 2.5px solid var(--secondary);
+    background: var(--primary);
+    position: sticky;
+    top: 0;
+}
+
+.navbar__logo--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__logo--container:hover > svg #layer1 {
+    stroke: var(--secondary);
+}
+
+.navbar__logo--container svg {
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+}
+
+.navbar__link--container {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: center;
+    gap: 3rem;
+}
+
+.navbar__link {
+    font-size: 1.25rem;
+    color: var(--background);
+    font-weight: 600;
+}
+
+.navbar__link:hover {
+    color: var(--tertiary);
+}
+
+.blue__link {
+    background: var(--text);
+    border: .15rem solid var(--text);
+    border-radius: .25rem;
+    padding: .5rem;
+    box-shadow: .1rem .1rem 1rem transparent;
+}
+
+.blue__link:hover {
+    color: var(--background);
+    box-shadow: .1rem .1rem 1rem var(--text);
+}
+
+.orange__link {
+    color: var(--text);
+    background: var(--tertiary);
+    border: .15rem solid var(--tertiary);
+    border-radius: .25rem;
+    padding: .5rem;
+    box-shadow: .1rem .1rem 1rem transparent;
+}
+
+.orange__link:hover {
+    color: var(--text);
+    box-shadow: .1rem .1rem 1rem var(--tertiary);
+}
+
+.navbar__hamburger--container {
+    display: none;
+}
+
+.hidden__menu--container {
+    display: none;
+}
+
+@media (max-width: 820px) {
+    .navbar__link--container {
+        display: none;
+    }
+
+    .navbar__container {
+        flex-direction: row;
+    }
+
+    .navbar__logo--container {
+        justify-content: flex-start;
+    }
+
+    .navbar__hamburger--container {
+        display: block;
+        margin-left: auto;
+    }
+
+    .navbar__hamburger--container svg {
+        height: 5rem;
+        width: auto;
+        cursor: pointer;
+    }
+
+    .navbar__hamburger--container svg g {
+        transition: .5s;
+    }
+
+    .navbar__hamburger--container:hover > svg g {
+        stroke: var(--secondary);
+    }
+
+    .hidden__menu--container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        background: var(--accent);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+    }
+
+    .hidden__menu--container::-webkit-scrollbar {
+        background: transparent;
+    }
+    
+    .hidden__menu--container::-webkit-scrollbar-thumb {
+        background: transparent;
+    }
+    
+    .hidden__menu--link {
+        font-size: 1.25rem;
+        color: var(--text);
+        font-weight: 600;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: .5rem;
+        padding-right: .5rem;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        border-bottom: 1px solid var(--secondary-accent);
+    }
+    
+    .hidden__menu--link:hover {
+        background: var(--secondary-accent);
+    }
+    
+    .hidden__menu {
+        display: none;
+    }
+    
+    .shown__menu {
+        display: flex;
+    }
+
+    .orange__menu {
+        margin-top: 1rem;
+        color: var(--text);
+        background: var(--tertiary);
+        border: .15rem solid var(--tertiary);
+        border-radius: .25rem;
+        box-shadow: .1rem .1rem 1rem transparent;
+    }
+
+    .orange__menu:hover {
+        color: var(--text);
+        box-shadow: .1rem .1rem 1rem var(--tertiary);
+        background: var(--tertiary);
+    }
+
+    .blue__menu {
+        margin-top: 1rem;
+        color: var(--background);
+        background: var(--text);
+        border: .15rem solid var(--text);
+        border-radius: .25rem;
+        box-shadow: .1rem .1rem 1rem transparent;
+    }
+
+    .blue__menu:hover {
+        color: var(--background);
+        box-shadow: .1rem .1rem 1rem var(--text);
+        background: var(--text);
+    }
+}

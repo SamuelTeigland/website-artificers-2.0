@@ -1,0 +1,13 @@
+#layer1 {
+    fill: none;
+    stroke: var(--text);
+    stroke-width: 15;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 13.2;
+    stroke-dasharray: none;
+    paint-order: fill markers stroke;
+    stroke-opacity: 1;
+    transition: .5s;
+}
+
