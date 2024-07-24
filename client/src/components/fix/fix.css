@@ -1,0 +1,156 @@
+.fix__container {
+    background: var(--secondary-accent);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.fix__header {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+    line-height: 5.5rem;
+    font-weight: 200;
+    color: var(--text);
+}
+
+.fix__header span {
+    font-weight: 800;
+}
+
+.fix__paragraph {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+    font-weight: 200;
+    color: var(--text);
+}
+
+.fix__svg--container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-grow: 1;
+    gap: 3rem;
+    margin: auto;
+}
+
+.fix__subcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: 20rem;
+}
+
+.fix__subcontainer svg {
+    height: 10rem;
+    width: auto;
+    fill: var(--text);
+}
+
+.fix__subcontainer--paragraph {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: var(--text);
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 200;
+}
+
+.fix__link--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fix__button {
+    font-size: 1.5rem;
+    margin: auto;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+@media (max-width: 850px) {
+    .fix__header {
+        width: 95%;
+        text-align: left;
+    }
+
+    .fix__paragraph {
+        width: 95%;
+        text-align: left;
+    }
+}
+
+@media (max-width: 600px) {
+    .fix__header {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .fix__paragraph {
+        font-size: 1.25rem;
+        line-height: 2.25rem;
+    }
+
+    .fix__svg--container {
+        flex-direction: column;
+        justify-content: center;
+        gap: .5rem;
+    }
+
+    .fix__subcontainer {
+        flex-direction: row;
+        width: 95%;
+        margin: auto;
+    }
+
+    .fix__subcontainer svg {
+        width: 20rem;
+    }
+
+    .fix__subcontainer--paragraph {
+        text-align: left;
+        font-size: 1.25rem;
+        line-height: 2.25rem;
+    }
+
+    .fix__link {
+        width: 95%;
+        margin: auto;
+    }
+
+    .fix__button {
+        width: 100%;
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .fix__header {
+        font-size: 2.5rem;
+    }
+
+    .fix__paragraph {
+        font-size: 1.15rem;
+        line-height: 2.15rem;
+    }
+
+    .fix__subcontainer--paragraph {
+        font-size: 1.15rem;
+        line-height: 2.15rem;
+    }
+
+    .fix__button {
+        font-size: 1.15rem;
+    }
+}

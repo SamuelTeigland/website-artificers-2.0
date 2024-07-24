@@ -6,7 +6,7 @@ export default function Navbar() {
     const [ isVisible, setVisible ] = useState(false);
 
     return (
-        <div>
+        <div className='navbar__sticky'>
             <div className='navbar__container'>
                 <a className='navbar__logo--container' href="/">
                     <DarkLogo />
