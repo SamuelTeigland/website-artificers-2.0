@@ -7,3 +7,6 @@ export { default as Benefits } from './benefits/benefits';
 export { default as Services } from './services/services';
 export { default as Pricing } from './pricing/pricing';
 export { default as ContactUs } from './contactUs/contactUs';
+
+// Tracking
+export { default as Facebokk } from './tracking/facebook'
