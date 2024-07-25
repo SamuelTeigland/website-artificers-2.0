@@ -1,0 +1,247 @@
+.pricing__container {
+    background: var(--secondary-accent);
+    padding: 2rem;
+}
+
+.pricing__subcontainer {
+    background: var(--darker-background);
+    border-radius: .5rem;
+    color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.pricing__slots--container {
+    background: var(--tertiary);
+    display: inline-block;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+.pricing__slots--paragraph {
+    color: var(--darker-background);
+    font-size: 1.15rem;
+}
+
+.pricing__join--header {
+    font-size: 3rem;
+    text-align: left;
+    font-weight: 800;
+    color: var(--secondary-accent);
+    margin-bottom: 1rem;
+}
+
+.pricing__join--paragraph {
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: 200;
+    color: var(--background);
+}
+
+.pricing__call--container {
+    border: solid 2px var(--accent-background);
+    border-radius: .5rem;
+    padding: 1rem;
+    cursor: pointer;
+    width: 80%;
+    transition: .5s;
+    margin-top: 1rem;
+}
+
+.pricing__call--container:hover {
+    background: var(--accent-background);
+}
+
+.pricing__call--header {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--secondary-accent);
+    margin-bottom: .5rem;
+}
+
+.pricing__call--paragraph {
+    font-size: 1.50rem;
+    color: var(--background);
+    line-height: 2.5rem;
+}
+
+.pricing__call--paragraph span {
+    color: var(--tertiary);
+    font-style: italic;
+    font-weight: 800;
+}
+
+.pricing__right--cell {
+    border: solid 2px var(--accent-background);
+    border-radius: .5rem;
+    padding: 1rem;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.pricing__right--cell:hover {
+    background: var(--accent-background);
+}
+
+.pricing__membership--header {
+    font-size: 3rem;
+    text-align: left;
+    font-weight: 800;
+    color: var(--tertiary);
+    margin-bottom: 1rem;
+}
+
+.pricing__membership--price {
+    color: var(--primary);
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+.pricing__membership--price span {
+    font-size: 3rem;
+    color: var(--secondary-accent);
+    font-weight: 200;
+}
+
+.pricing__membership--subheader {
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: var(--secondary-accent);
+}
+
+.pricing__membership--subheader span {
+    color: var(--primary);
+}
+
+.pricing__bottom--border {
+    border-bottom: solid 2px var(--accent-background);
+    margin-bottom: 1rem;
+    transition: .5s;
+}
+
+.pricing__right--cell:hover > .pricing__bottom--border {
+    border-bottom: solid 2px var(--darker-background);
+}
+
+.pricing__membership--features {
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: var(--tertiary);
+}
+
+.pricing__membership--features__container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pricing__membership--features__container p {
+    font-size: 1.15rem;
+    font-weight: 200;
+    color: var(--background);
+    line-height: 2rem;
+}
+
+.pricing__membership--cta__container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.pricing__membership--cta__container p {
+    font-weight: 800;
+    color: var(--background);
+    font-style: italic;
+}
+
+.pricing__membership--cta__container a {
+    color: var(--secondary-accent);
+    font-weight: 200;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.pricing__membership--cta__container a:hover {
+    color: var(--primary);
+}
+
+.pricing__membership--cta__button {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+@media (max-width: 975px) {
+    .pricing__subcontainer {
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+
+    .pricing__subcontainer--cell {
+        width: auto;
+        margin: auto;
+    }
+
+    .pricing__call--container {
+        width: auto;
+    }
+}
+
+@media (max-width: 705px) {
+    .pricing__membership--features__container {
+        grid-template-columns: repeat(1, auto);
+        gap: .5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .pricing__container {
+        padding: 0;
+    }
+
+    .pricing__subcontainer--cell {
+        padding: .5rem;
+        width: 95%;
+        margin: auto;
+    }
+
+    .pricing__call--container {
+        padding: .5rem;
+    }
+
+    .pricing__call--header {
+        font-size: 1.25rem;
+    }
+
+    .pricing__call--paragraph {
+        font-size: 1.15rem;
+        line-height: 2rem;
+        text-wrap: wrap;
+    }
+
+    .pricing__membership--price {
+        font-size: 4rem;
+    }
+
+    .pricing__membership--price span {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .pricing__call--paragraph {
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+}

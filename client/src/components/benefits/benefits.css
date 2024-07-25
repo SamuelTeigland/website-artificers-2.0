@@ -1,0 +1,124 @@
+.benefits__container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background: var(--text);
+    color: var(--background);
+}
+
+.benefits__header {
+    font-size: 4rem;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.benefits__paragraph {
+    font-weight: 200;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: var(--secondary-accent);
+}
+
+.benefits__paragraph span {
+    font-weight: 800;
+}
+
+.benefits__subcontainer {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 3rem;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.benefits__subcontainer--cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.benefits__subcontainer--cell svg {
+    width: 10rem;
+}
+
+.benefits__subcontainer--cell__header {
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.benefits__subcontainer--cell__paragraph {
+    color: var(--secondary-accent);
+    font-weight: 800;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 850px) {
+    .benefits__subcontainer {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .benefits__paragraph {
+        width: 60%;
+    }
+}
+
+@media (max-width: 500px) {
+    .benefits__header {
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    .benefits__paragraph {
+        font-size: 1.25rem;
+        line-height: 2.25rem;
+        width: 95%;
+        text-align: left;
+    }
+
+    .benefits__subcontainer {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .benefits__subcontainer--cell {
+        align-items: start;
+    }
+
+    .benefits__subcontainer--cell__header {
+        text-align: left;
+    }
+    
+    .benefits__subcontainer--cell__paragraph {
+        text-align: left;
+    }
+}
+
+@media (max-width: 350px) {
+    .benefits__header {
+        font-size: 2.5rem;
+    }
+
+    .benefits__paragraph {
+        font-size: 1.15rem;
+        line-height: 2rem;
+    }
+
+    .benefits__subcontainer--cell__header {
+        font-size: 2rem;
+    }
+    
+    .benefits__subcontainer--cell__paragraph {
+        font-size: 1.15rem;
+    }
+}

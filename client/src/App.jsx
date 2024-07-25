@@ -1,4 +1,4 @@
-import { Hero, Fix, Review } from './components/components';
+import { Hero, Fix, Review, Benefits, Services, Pricing, ContactUs } from './components/components';
 
 export default function App() {
     return (
@@ -6,6 +6,10 @@ export default function App() {
             <Hero />
             <Fix />
             <Review />
+            <Benefits />
+            <Services />
+            <Pricing />
+            <ContactUs />
         </div>
     )
 }

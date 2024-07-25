@@ -12,12 +12,12 @@ export default function Navbar() {
                     <DarkLogo />
                 </a>
                 <div className='navbar__link--container'>
-                    <a className='navbar__link'>How it works</a>
-                    <a className='navbar__link'>Benefits</a>
-                    <a className='navbar__link'>Services</a>
-                    <a className='navbar__link'>Pricing</a>
+                    <a className='navbar__link' href='/#how-it-works'>How it works</a>
+                    <a className='navbar__link' href='/#benefits'>Benefits</a>
+                    <a className='navbar__link' href='/#services'>Services</a>
+                    <a className='navbar__link' href='/#pricing'>Pricing</a>
                     <a className='navbar__link orange__link'>Contact us</a>
-                    <a className='navbar__link blue__link'>Login</a>
+                    <a className='navbar__link blue__link' href='https://pay.websiteartificers.com/p/login/cN2eWu8HIeZD6GY5kk'>Login</a>
                 </div>
                 <div
                     onClick={() => { setVisible(!isVisible); }} className='navbar__hamburger--container'
@@ -26,12 +26,12 @@ export default function Navbar() {
                 </div>
             </div>
             <div className={ isVisible === true ? 'hidden__menu--container shown__menu' : 'hidden__menu--container hidden__menu' }>
-                    <a className='hidden__menu--link'>How it works</a>
-                    <a className='hidden__menu--link'>Benefits</a>
-                    <a className='hidden__menu--link'>Services</a>
-                    <a className='hidden__menu--link'>Pricing</a>
+                    <a className='hidden__menu--link' href='/#how-it-works'>How it works</a>
+                    <a className='hidden__menu--link' href='/#benefits'>Benefits</a>
+                    <a className='hidden__menu--link' href='/#services'>Services</a>
+                    <a className='hidden__menu--link' href='/#pricing'>Pricing</a>
                     <a className='hidden__menu--link orange__menu'>Contact us</a>
-                    <a className='hidden__menu--link blue__menu'>Login</a>
+                    <a className='hidden__menu--link blue__menu' href='https://pay.websiteartificers.com/p/login/cN2eWu8HIeZD6GY5kk'>Login</a>
             </div>
         </div>
     )

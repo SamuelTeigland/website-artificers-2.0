@@ -3,7 +3,7 @@ import { Package, Repeat, Revise } from '../../icons/icons';
 
 export default function Fix() {
     return (
-        <div className='fix__container'>
+        <div className='fix__container' id='how-it-works'>
             <h2 className='fix__header'>Building a website is easier said than done. <span>We fixed that.</span></h2>
             <p className='fix__paragraph'>Just say the word, and we get it done. Website development as you know it is out the door. Website development as you want it is here.</p>
             <div className='fix__svg--container'>
@@ -21,7 +21,7 @@ export default function Fix() {
                 </div>
             </div>
             <div className="fix__link--container">
-                <a className='fix__link'>
+                <a className='fix__link' href='/#pricing'>
                     <button className='fix__button button__secondary'>See plans</button>
                 </a>
             </div>

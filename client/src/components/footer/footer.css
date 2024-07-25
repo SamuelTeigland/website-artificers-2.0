@@ -1,0 +1,41 @@
+.footer__container {
+    background: var(--darker-background);
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.footer__container--link svg {
+    height: 8rem;
+    width: auto;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.footer__container--link svg #layer1 {
+    stroke: var(--secondary);
+}
+
+.footer__container--link svg:hover > #layer1 {
+    stroke: var(--primary);
+}
+
+.footer__subcontainer {
+    background: var(--accent-background);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-top: 2.5px solid var(--secondary);
+}
+
+.footer__paragraph {
+    color: var(--secondary-accent);
+    font-weight: 200;
+}
+
+.footer__paragraph a {
+    font-weight: 800;
+    color: var(--secondary)
+}
+
+.footer__paragraph a:hover {
+    color: var(--primary);
+}

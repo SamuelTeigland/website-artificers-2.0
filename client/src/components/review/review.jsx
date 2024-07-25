@@ -7,7 +7,7 @@ export default function Review() {
             <h2 className='review__header'>"We are extremely pleased with the work of Website Artificers."</h2>
             <p className='review__paragraph'><span>It's so good, you'll never want to go back.</span> The Website Artificers replace unreliable freelancers and expensive agencies for one flat monthly fee, with websites delivered so fast that it will blow your mind.</p>
             <div className='review__button--container'>
-                <a className='review__button--link'>
+                <a className='review__button--link' href='/#pricing'>
                     <button className='review__button button__secondary'>See plans</button>
                 </a>
             </div>
