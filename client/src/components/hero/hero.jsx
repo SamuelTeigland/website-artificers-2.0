@@ -6,7 +6,7 @@ export default function Hero() {
             <h1 className='hero__header'>Website development made <span>easier.</span></h1>
             <p className='hero__paragraph'>Build and maintain a website that fits your needs. Pause or cancel anytime.</p>
             <div className='hero__button--container'>
-                <a className='hero__button--link'>
+                <a className='hero__button--link' href='/#contact-us'>
                     <button className='hero__button button__primary'>Contact us</button>
                 </a>
                 <a className='hero__button--link'>
