@@ -9,4 +9,4 @@ export { default as Pricing } from './pricing/pricing';
 export { default as ContactUs } from './contactUs/contactUs';
 
 // Tracking
-export { default as Facebokk } from './tracking/facebook'
+export { default as Facebook } from './tracking/facebook'
