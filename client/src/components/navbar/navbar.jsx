@@ -26,12 +26,12 @@ export default function Navbar() {
                 </div>
             </div>
             <div className={ isVisible === true ? 'hidden__menu--container shown__menu' : 'hidden__menu--container hidden__menu' }>
-                    <a className='hidden__menu--link' href='/#how-it-works'>How it works</a>
-                    <a className='hidden__menu--link' href='/#benefits'>Benefits</a>
-                    <a className='hidden__menu--link' href='/#services'>Services</a>
-                    <a className='hidden__menu--link' href='/#pricing'>Pricing</a>
-                    <a className='hidden__menu--link orange__menu' href='/#contact-us'>Contact us</a>
-                    <a className='hidden__menu--link blue__menu' href='https://pay.websiteartificers.com/p/login/cN2eWu8HIeZD6GY5kk'>Login</a>
+                    <a className='hidden__menu--link' href='/#how-it-works' onClick={() => { setVisible(!isVisible); }}>How it works</a>
+                    <a className='hidden__menu--link' href='/#benefits' onClick={() => { setVisible(!isVisible); }}>Benefits</a>
+                    <a className='hidden__menu--link' href='/#services' onClick={() => { setVisible(!isVisible); }}>Services</a>
+                    <a className='hidden__menu--link' href='/#pricing' onClick={() => { setVisible(!isVisible); }}>Pricing</a>
+                    <a className='hidden__menu--link orange__menu' href='/#contact-us' onClick={() => { setVisible(!isVisible); }}>Contact us</a>
+                    <a className='hidden__menu--link blue__menu' href='https://pay.websiteartificers.com/p/login/cN2eWu8HIeZD6GY5kk' onClick={() => { setVisible(!isVisible); }}>Login</a>
             </div>
         </div>
     )
