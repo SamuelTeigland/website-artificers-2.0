@@ -10,3 +10,4 @@ export { default as ContactUs } from './contactUs/contactUs';
 
 // Tracking
 export { default as Facebook } from './tracking/facebook'
+export { default as Google } from './tracking/google'

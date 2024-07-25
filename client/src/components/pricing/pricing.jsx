@@ -1,6 +1,9 @@
-import './pricing.css'
+import './pricing.css';
+import ReactGA from 'react-ga4';
 
 export default function Pricing() {
+    ReactGA.initialize('G-BY6RR52CSJ');
+
     return (
         <div className='pricing__container' id='pricing'>
             <div className='pricing__subcontainer'>

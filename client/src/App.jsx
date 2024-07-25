@@ -1,4 +1,4 @@
-import { Hero, Fix, Review, Benefits, Services, Pricing, ContactUs, Facebook } from './components/components';
+import { Hero, Fix, Review, Benefits, Services, Pricing, ContactUs, Facebook, Google } from './components/components';
 import ReactGA from 'react-ga4';
 
 export default function App() {
@@ -12,6 +12,7 @@ export default function App() {
 
     return (
         <div className='home__container'>
+            <Google />
             <Facebook />
             <Hero />
             <Fix />
