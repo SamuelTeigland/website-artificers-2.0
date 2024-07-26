@@ -1,5 +1,6 @@
 import './navbar.css';
-import { DarkLogo, Hamburger } from '../../icons/icons'
+import { DarkLogo, Hamburger } from '../../icons/icons';
+import { SeptemberWebinar } from './adBanner/adBanner';
 import { useState } from 'react';
 
 export default function Navbar() {
@@ -7,6 +8,7 @@ export default function Navbar() {
 
     return (
         <div className='navbar__sticky'>
+            <SeptemberWebinar />
             <div className='navbar__container'>
                 <a className='navbar__logo--container' href="/">
                     <DarkLogo />

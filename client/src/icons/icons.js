@@ -9,3 +9,4 @@ export { default as Grow } from './grow/grow';
 export { default as Money } from './money/money';
 export { default as Quality } from './quality/quality';
 export { default as Unique } from './unique/unique';
+export { default as Close } from './close/close';
