@@ -13,7 +13,7 @@ export default function SeptemberWebinar() {
                 <Close />
             </div>
             <div className='webinar__message--container'>
-                <p className='webinar__paragraph'>Are you a business owner? Learn some simple techniques for improving your website. <span>Join our FREE webinar on September 1st! Seriously, it's free.</span> We hope to see you there!</p>
+                <p className='webinar__paragraph'>Are you a business owner? Learn some simple techniques for improving your website. <span>Join our FREE webinar on September 7th! Seriously, it's free.</span> We hope to see you there!</p>
                 <a href='https://bit.ly/4cVU4RY' target="_blank" rel="noopener noreferrer">
                     <button className='webinar__button button__secondary'>Join us!</button>
                 </a>
