@@ -9,7 +9,7 @@ export default function Hero() {
                 <a className='hero__button--link' href='/#contact-us'>
                     <button className='hero__button button__primary'>Contact us</button>
                 </a>
-                <a className='hero__button--link'>
+                <a className='hero__button--link' href='/#pricing'>
                     <button className='hero__button button__secondary' href='/#pricing'>See plans</button>
                 </a>
             </div>
