@@ -15,7 +15,7 @@ export default function Pricing() {
                     <p className='pricing__join--paragraph'>Put your website problems in the past!</p>
                     <div className='pricing__call--container'>
                         <a className='pricing__call--link' href='https://calendly.com/websiteartificers' target="_blank" rel="noopener noreferrer">
-                            <h3 className='pricing__call--header'>Book a 30-min into call!</h3>
+                            <h3 className='pricing__call--header'>Book a 30-min intro call!</h3>
                             <p className='pricing__call--paragraph'>Learn more about how we work and how we can help you. →</p>
                         </a>
                     </div>
