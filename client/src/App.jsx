@@ -1,28 +1,16 @@
-import { Hero, Fix, Review, Benefits, Services, Pricing, ContactUs, Facebook, Google } from './components/components';
-import ReactGA from 'react-ga4';
-import { Analytics } from "@vercel/analytics/react"
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from './HomePage';
+import PrivacyPage from './PrivacyPage';
 
 export default function App() {
-    ReactGA.initialize('G-BY6RR52CSJ');
-
-    ReactGA.send({
-        hitType: "pageview",
-        page: "/",
-        title: "Home Page",
-    })
 
     return (
-        <div className='home__container'>
-            <Analytics />
-            <Google />
-            <Facebook />
-            <Hero />
-            <Fix />
-            <Review />
-            <Benefits />
-            <Services />
-            <Pricing />
-            <ContactUs />
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/privacy" element={<PrivacyPage />} />
+            </Routes>
+        </BrowserRouter>
     )
 }
