@@ -19,6 +19,18 @@
     stroke: var(--primary);
 }
 
+.footer__subcontainer--links {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+.footer__subcontainer--links a {
+    font-size: 1.25rem;
+}
+
 .footer__subcontainer {
     background: var(--accent-background);
     padding-top: .5rem;

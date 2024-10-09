@@ -7,6 +7,12 @@ export default function Footer() {
             <a href='/' className='footer__container--link'>
                 <DarkLogo />
             </a>
+            <div className='footer__subcontainer--links'>
+                <a href='/privacy'>Home</a>
+                <a href='/privacy'>Privacy</a>
+                <a href='/#pricing'>Pricing</a>
+                <a href='/#contact-us'>Contact</a>
+            </div>
             <div className='footer__subcontainer'>
                 <p className='footer__paragraph'>Crafted with passion by <a href='/'>Website Artificers</a> © 2024</p>
             </div>
