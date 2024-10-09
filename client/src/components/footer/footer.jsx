@@ -10,7 +10,7 @@ export default function Footer() {
             </a>
             <div className='footer__subcontainer--links'>
                 <a href='/'>Home</a>
-                <Link to="/privacy">Privacy</Link>
+                <a href='/privacy'>Privacy</a>
                 <a href='/#pricing'>Pricing</a>
                 <a href='/#contact-us'>Contact</a>
             </div>
