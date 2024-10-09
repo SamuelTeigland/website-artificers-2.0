@@ -8,7 +8,7 @@ export default function Footer() {
                 <DarkLogo />
             </a>
             <div className='footer__subcontainer--links'>
-                <a href='/privacy'>Home</a>
+                <a href='/'>Home</a>
                 <a href='/privacy'>Privacy</a>
                 <a href='/#pricing'>Pricing</a>
                 <a href='/#contact-us'>Contact</a>

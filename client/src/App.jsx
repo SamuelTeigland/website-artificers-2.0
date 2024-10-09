@@ -9,7 +9,7 @@ export default function App() {
         <BrowserRouter>
             <Routes>
                 <Route exact path="/" element={<HomePage />} />
-                <Route exact path="/privacy" element={<PrivacyPage />} />
+                <Route path="/privacy" element={<PrivacyPage />} />
             </Routes>
         </BrowserRouter>
     )
