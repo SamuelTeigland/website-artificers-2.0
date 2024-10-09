@@ -1,6 +1,5 @@
 import './footer.css';
 import { DarkLogo } from '../../icons/icons'
-import { NavLink as Link } from "react-router-dom";
 
 export default function Footer() {
     return (
@@ -10,7 +9,7 @@ export default function Footer() {
             </a>
             <div className='footer__subcontainer--links'>
                 <a href='/'>Home</a>
-                <a href='/privacy'>Privacy</a>
+                <a href="/privacy.html">Privacy</a>
                 <a href='/#pricing'>Pricing</a>
                 <a href='/#contact-us'>Contact</a>
             </div>
