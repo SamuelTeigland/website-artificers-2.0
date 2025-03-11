@@ -30,7 +30,7 @@ export default function Pricing() {
                     <div className='pricing__bottom--border'>
                         <h2 className='pricing__membership--header'>Standard Plan</h2>
                         <h2 className='pricing__membership--price'>$500<span>/m</span></h2>
-                        <h3 className='pricing__membership--subheader'>Plus a one time <span>$250</span> onboarding fee.</h3>
+                        <h3 className='pricing__membership--subheader'>Plus a one-time <span>$250</span> onboarding fee.</h3>
                     </div>
                     
                     <h4 className='pricing__membership--features'>What's included?</h4>
