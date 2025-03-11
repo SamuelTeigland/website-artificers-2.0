@@ -45,8 +45,9 @@
 }
 
 .hero__logos--container {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-between;
     align-items: center;
     margin-top: 3rem;
     background: var(--secondary-accent);
@@ -56,14 +57,15 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-radius: .5rem;
-    gap: 7rem;
+    gap: 2rem;
 }
 
 .hero__logo {
-    height: 5rem;
-    width: auto;
+    height: 6rem;
+    width: 100%;
     object-position: center;
     object-fit: contain;
+    margin: auto;
 }
 
 @media (max-width: 1420px) {
@@ -108,8 +110,8 @@
     }
 
     .hero__logos--container {
-        gap: 4rem;
-        flex-wrap: wrap;
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
     }
 }
 
@@ -135,5 +137,13 @@
 
     .hero__button {
         font-size: 1.25rem;
+    }
+
+    .hero__logos--container {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .hero__logo {
+        height: 5rem;
     }
 }

@@ -26,6 +26,15 @@ export default function Hero() {
                 <a href='https://cowsofdelaware.com/' target="_blank" rel="noopener noreferrer">
                     <img src="/images/cows.png" alt="COWs of Delaware" id="cows__logo" className='hero__logo' />
                 </a>
+                <a href='https://primepluss.com/' target="_blank" rel="noopener noreferrer">
+                    <img src="/images/PrimePlussLogo.png" alt="Prime Pluss" id="prime__pluss--logo" className='hero__logo' />
+                </a>
+                <a href='https://amanipartners.org/child-sponsorship-program/' target="_blank" rel="noopener noreferrer">
+                    <img src="/images/mpk.png" alt="Mission Partners Kenya" id="mpk__logo" className='hero__logo' />
+                </a>
+                <a href='https://www.elimupartnerskenya.org/' target="_blank" rel="noopener noreferrer">
+                    <img src="/images/epk.png" alt="Elimu Partners Kenya" id="epk__logo" className='hero__logo' />
+                </a>
             </div>
         </div>
     )

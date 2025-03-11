@@ -29,7 +29,7 @@ export default function Pricing() {
                 <div className='pricing__subcontainer--cell pricing__right--cell'>
                     <div className='pricing__bottom--border'>
                         <h2 className='pricing__membership--header'>Standard Plan</h2>
-                        <h2 className='pricing__membership--price'>$200<span>/m</span></h2>
+                        <h2 className='pricing__membership--price'>$500<span>/m</span></h2>
                         <h3 className='pricing__membership--subheader'>Pause or cancel anytime and a <span>10 day </span>free trial.</h3>
                     </div>
                     
@@ -44,7 +44,7 @@ export default function Pricing() {
                         <p>• Design, SEO, and website management</p>
                     </div>
                     <div className='pricing__membership--cta__container'>
-                        <a className='pricing__membership--cta__container--link' href='https://pay.websiteartificers.com/b/dR6bLN5Ph2iV4KceUV'>
+                        <a className='pricing__membership--cta__container--link' href='https://pay.websiteartificers.com/b/8wMaHJa5x0aN6Sk9AC'>
                             <button className='pricing__membership--cta__button button__tertiary'>Get started</button>
                         </a>
                         <p>or</p>
