@@ -14,7 +14,7 @@ export default function Pricing() {
                     <h2 className='pricing__join--header'>Join The Website Artificers</h2>
                     <p className='pricing__join--paragraph'>Put your website problems in the past!</p>
                     <div className='pricing__call--container'>
-                        <a className='pricing__call--link' href='https://calendly.com/websiteartificers' target="_blank" rel="noopener noreferrer">
+                        <a className='pricing__call--link' href='https://calendly.com/websiteartificers/30min' target="_blank" rel="noopener noreferrer">
                             <h3 className='pricing__call--header'>Book a 30-min intro call!</h3>
                             <p className='pricing__call--paragraph'>Learn more about how we work and how we can help you. →</p>
                         </a>
@@ -28,15 +28,14 @@ export default function Pricing() {
                 </div>
                 <div className='pricing__subcontainer--cell pricing__right--cell'>
                     <div className='pricing__bottom--border'>
-                        <h2 className='pricing__membership--header'>Standard Plan</h2>
-                        <h2 className='pricing__membership--price'>$500<span>/m</span></h2>
-                        <h3 className='pricing__membership--subheader'>Plus a one-time <span>$250</span> onboarding fee.</h3>
+                        <h2 className='pricing__membership--header'>Yearly Plan</h2>
+                        <h2 className='pricing__membership--price'>$800<span>/yr</span></h2>
+                        <h3 className='pricing__membership--subheader'>Plus a one-time <span>$200</span> onboarding fee.</h3>
                     </div>
                     
                     <h4 className='pricing__membership--features'>What's included?</h4>
                     <div className='pricing__membership--features__container'>
-                        <p>• Two requests at a time</p>
-                        <p>• Average 24 hour delivery</p>
+                        <p>• Average 48 hour delivery</p>
                         <p>• Pause or cancel anytime</p>
                         <p>• Unlimited users</p>
                         <p>• Unlimited website size</p>
@@ -48,7 +47,7 @@ export default function Pricing() {
                             <button className='pricing__membership--cta__button button__tertiary'>Get started</button>
                         </a>
                         <p>or</p>
-                        <a href='https://calendly.com/websiteartificers' target="_blank" rel="noopener noreferrer" className='pricing__membership--cta__container--link'>
+                        <a href='https://calendly.com/websiteartificers/30min' target="_blank" rel="noopener noreferrer" className='pricing__membership--cta__container--link'>
                             Book a call
                         </a>
                     </div>

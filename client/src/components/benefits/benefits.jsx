@@ -19,8 +19,8 @@ export default function Benefits() {
                 </div>
                 <div className='benefits__subcontainer--cell'>
                     <Money />
-                    <h3 className='benefits__subcontainer--cell__header'>Fixed monthly rate</h3>
-                    <p className='benefits__subcontainer--cell__paragraph'>No surprises here! Pay the same price every month. No hidden fees or gimmicks.</p>
+                    <h3 className='benefits__subcontainer--cell__header'>Fixed yearly rate</h3>
+                    <p className='benefits__subcontainer--cell__paragraph'>No surprises here! Pay the same price every year. No hidden fees or gimmicks.</p>
                 </div>
                 <div className='benefits__subcontainer--cell'>
                     <Quality />
@@ -35,7 +35,7 @@ export default function Benefits() {
                 <div className='benefits__subcontainer--cell'>
                     <Unique />
                     <h3 className='benefits__subcontainer--cell__header'>Unique and all yours</h3>
-                    <p className='benefits__subcontainer--cell__paragraph'>All over your designs is made especially for you and is 100% yours.</p>
+                    <p className='benefits__subcontainer--cell__paragraph'>All of your designs is made especially for you and is 100% yours.</p>
                 </div>
             </div>
         </div>

@@ -8,7 +8,7 @@ export default function ContactUs() {
                 <div className='contact__subcontainer--cell'>
                     <h3 className='contact__subcontainer--header'>Guided tour</h3>
                     <p className='contact__subcontainer--paragraph'>Get a guided tour through The Website Artificers' platform, and find out how you and your team can change your online presence, <span>forever.</span></p>
-                    <a className='contact__subcontainer--link' href='https://calendly.com/websiteartificers' target="_blank" rel="noopener noreferrer">
+                    <a className='contact__subcontainer--link' href='https://calendly.com/websiteartificers/30min' target="_blank" rel="noopener noreferrer">
                         <button className='contact__subcontainer--button button__primary'>Schedule a call</button>
                     </a>
                 </div>

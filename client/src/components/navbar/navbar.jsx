@@ -19,7 +19,6 @@ export default function Navbar() {
                     <a className='navbar__link' href='/#pricing'>Pricing</a>
                     <a className='navbar__link' href='/#contact-us'>Contact us</a>
                     <a className='navbar__link orange__link' href='https://pay.websiteartificers.com/p/login/cN2eWu8HIeZD6GY5kk'>Login</a>
-                    <a className='navbar__link blue__link' href='https://skool.com/website-artificers/about' target="_blank" rel="noopener noreferrer">Learn coding</a>
                 </div>
                 <div
                     onClick={() => { setVisible(!isVisible); }} className='navbar__hamburger--container'
@@ -34,7 +33,6 @@ export default function Navbar() {
                     <a className='hidden__menu--link' href='/#pricing' onClick={() => { setVisible(!isVisible); }}>Pricing</a>
                     <a className='hidden__menu--link' href='/#contact-us' onClick={() => { setVisible(!isVisible); }}>Contact us</a>
                     <a className='hidden__menu--link orange__menu' href='https://pay.websiteartificers.com/p/login/cN2eWu8HIeZD6GY5kk' onClick={() => { setVisible(!isVisible); }}>Login</a>
-                    <a className='hidden__menu--link blue__menu' href='https://skool.com/website-artificers/about' target="_blank" rel="noopener noreferrer" onClick={() => { setVisible(!isVisible); }}>We teach programming</a>
             </div>
         </div>
     )
