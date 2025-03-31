@@ -43,7 +43,7 @@ export default function Pricing() {
                         <p>• Design, SEO, and website management</p>
                     </div>
                     <div className='pricing__membership--cta__container'>
-                        <a className='pricing__membership--cta__container--link' href='https://pay.websiteartificers.com/b/3csbLN4Ld4r3b8A6or'>
+                        <a className='pricing__membership--cta__container--link' href='https://pay.websiteartificers.com/b/eVa8zBdhJe1D1y05ko'>
                             <button className='pricing__membership--cta__button button__tertiary'>Get started</button>
                         </a>
                         <p>or</p>
