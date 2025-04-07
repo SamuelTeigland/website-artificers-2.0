@@ -29,8 +29,8 @@ export default function Pricing() {
                 <div className='pricing__subcontainer--cell pricing__right--cell'>
                     <div className='pricing__bottom--border'>
                         <h2 className='pricing__membership--header'>Yearly Plan</h2>
-                        <h2 className='pricing__membership--price'>$800<span>/yr</span></h2>
-                        <h3 className='pricing__membership--subheader'>Plus a one-time <span>$200</span> onboarding fee.</h3>
+                        <h2 className='pricing__membership--price'>$60<span>/yr</span></h2>
+                        <h3 className='pricing__membership--subheader'>Plus a one-time <span>$15</span> onboarding fee.</h3>
                     </div>
                     
                     <h4 className='pricing__membership--features'>What's included?</h4>
@@ -43,7 +43,7 @@ export default function Pricing() {
                         <p>• Design, SEO, and website management</p>
                     </div>
                     <div className='pricing__membership--cta__container'>
-                        <a className='pricing__membership--cta__container--link' href='https://pay.websiteartificers.com/b/eVa8zBdhJe1D1y05ko'>
+                        <a className='pricing__membership--cta__container--link' href='https://pay.websiteartificers.com/b/00g3fh3H94r3gsUbIN'>
                             <button className='pricing__membership--cta__button button__tertiary'>Get started</button>
                         </a>
                         <p>or</p>
